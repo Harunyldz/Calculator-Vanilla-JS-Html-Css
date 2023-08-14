@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 247, 247);
+    padding: 10px;
+    width: 400px;
+    gap: 10px;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.top span {
+    border: none;
+    outline: none;
+    text-align: right;
+    padding: 10px;
+    color: rgb(56, 55, 55);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.top .top-screen {
+    height: 40%;
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.top .screen {
+    height: 60%;
+    font-size: 36px;
+    border: none;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.keys {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    height: 50px;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 254);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+.equal {
+    grid-area: 4/4/7/5;
+    height: 100%;
+    background-color: #176B87;
+    color: white;
+}
+
+.equal:hover {
+    background-color: #1a7897;
+    border: 1px solid white;
+}
+
+.divide {
+    grid-area: 3/4/4/5;
+}
+
+.operator {
+    color: rgb(98, 98, 99);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.process {
+    color: rgb(98, 98, 99);
+    font-size: 16px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 48
+  }
+
+  .delete{
+    display: grid;
+    place-items: center;
+  }

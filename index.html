@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <span class="top-screen" id="top-screen"></span>
+            <span class="screen" id="screen"></span>
+        </div>
+        <hr>
+        <div class="keys">
+
+            <button type="button" value="divide-x" class="process">1&frasl;<sub>x</sub></button>
+            <button type="button" value="square" class="process">X<sup>2</sup></button>
+            <button type="button" value="square-root" class="process"><sup>2</sup>&radic;<span
+                    style="text-decoration:overline;">&nbsp;X&nbsp;</span></button>
+            <button type="button" value="delete" class="delete"><span class="material-symbols-outlined">
+                    backspace
+                </span></button>
+            <button type="button" value="%" class="operator">%</button>
+
+            <button type="button" value="+" class="operator">+</button>
+            <button type="button" value="-" class="operator">-</button>
+            <button type="button" value="*" class="operator">&times;</button>
+            <button type="button" value="/" class="operator divide">&divide;</button>
+
+            <button type="button" class="numbers" value="7">7</button>
+            <button type="button" class="numbers" value="8">8</button>
+            <button type="button" class="numbers" value="9">9</button>
+
+            <button type="button" class="numbers" value="4">4</button>
+            <button type="button" class="numbers" value="5">5</button>
+            <button type="button" class="numbers" value="6">6</button>
+
+            <button type="button" class="numbers" value="1">1</button>
+            <button type="button" class="numbers" value="2">2</button>
+            <button type="button" class="numbers" value="3">3</button>
+
+            <button type="button" class="numbers" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+            <button type="button" class="equal" value="=">=</button>
+            <button type="button" class="clear" value="clear">AC</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
